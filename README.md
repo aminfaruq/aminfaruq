@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-curl https://raw.githubusercontent.com/cljoly/readme-in-static-site/main/README.md | awk -f riss.awk >readme-in-static-site.md
-
 
 <!--
 **aminfaruq/aminfaruq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
