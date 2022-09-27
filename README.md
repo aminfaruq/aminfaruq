@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-<a href="https://profile-summary-for-github.com/user/aminfaruq" target="_blank">Google</a>
-
 <!--
 **aminfaruq/aminfaruq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
