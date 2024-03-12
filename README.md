@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-<h1 align="center">Hi 👋, I'm Amin Faruq H</h1>
+<h1 align="center">Hi 👋, I'm Amin Faruq</h1>
 <h3 align="center">I am passionate in Mobile Development</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nisajamalia&label=Profile%20views&color=0e75b6&style=flat" alt="nisajamalia" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=aminfaruq&label=Profile%20views&color=0e75b6&style=flat" alt="aminfaruq" /> </p>
 
 - 🌱 I’m currently learning **Flutter**
 
