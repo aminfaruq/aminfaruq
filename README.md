@@ -1,5 +1,27 @@
 ### Hi there 👋
 
+<h1 align="center">Hi 👋, I'm Amin Faruq H</h1>
+<h3 align="center">I am passionate in Mobile Development</h3>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nisajamalia&label=Profile%20views&color=0e75b6&style=flat" alt="nisajamalia" /> </p>
+
+- 🌱 I’m currently learning **Flutter**
+
+- 💬 Ask me about **Android,iOS and Flutter**
+
+- 📫 How to reach me *aminfaruk.fa@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/amin-faruq/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amin faruq" height="30" width="40" /></a>
+</p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aminfaruq&show_icons=true&locale=en&layout=compact" alt="aminfaruq" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aminfaruq&show_icons=true&locale=en" alt="aminfaruq" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aminfaruq&" alt="aminfaruq" /></p>
+
 <!--
 **aminfaruq/aminfaruq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
