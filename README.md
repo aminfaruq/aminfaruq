@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aminfaruq&label=Profile%20views&color=0e75b6&style=flat" alt="aminfaruq" /> </p>
 
-- 💬 Ask me about **iOS and Flutter**
+- 💬 Ask me about **iOS**
 
 - 📫 How to reach me *aminfaruk.fa@gmail.com**
 
