@@ -19,7 +19,7 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aminfaruq&show_icons=true&locale=en" alt="aminfaruq" /></p>
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=aminfaruq)]
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=aminfaruq)
 <!--
 **aminfaruq/aminfaruq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
