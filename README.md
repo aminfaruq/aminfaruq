@@ -102,10 +102,16 @@ I design and build resilient iOS applications that scale to millions of users an
 
 ---
 
-## Connect
+## 📬 Connect
 
-- **Email**: [aminfaruk.fa@gmail.com](mailto:aminfaruk.fa@gmail.com)
-- **LinkedIn**: [linkedin.com/in/amin-faruq](https://linkedin.com/in/amin-faruq/)
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aminfaruk.fa@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amin-faruq/)
+
+</div>
+
+*Open to iOS engineering opportunities, architecture discussions, and collaborations.*
 
 ---
 
