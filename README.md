@@ -28,9 +28,9 @@ I design and build resilient iOS applications that scale to millions of users an
 
 | Aspect | Details |
 |--------|---------|
-| 🎯 **Challenge** | A minimalist habit tracker supporting macOS, iOS, and watchOS with seamless offline-first synchronization. Three independent device surfaces mutate the same data model, requiring conflict-free state reconciliation. |
-| 💡 **Solution** | Adopted a **counter-based domain model** (instead of binary checkboxes) to shift persistence from simple toggles to cumulative state reconciliation—ensuring data integrity without constant network connectivity. |
-| 🚀 **Impact** | Reliable offline-first sync across all Apple platforms without data conflicts. |
+| **Challenge** | A minimalist habit tracker supporting macOS, iOS, and watchOS with seamless offline-first synchronization. Three independent device surfaces mutate the same data model, requiring conflict-free state reconciliation. |
+| **Solution** | Adopted a **counter-based domain model** (instead of binary checkboxes) to shift persistence from simple toggles to cumulative state reconciliation—ensuring data integrity without constant network connectivity. |
+| **Impact** | Reliable offline-first sync across all Apple platforms without data conflicts. |
 
 ---
 
@@ -44,9 +44,9 @@ I design and build resilient iOS applications that scale to millions of users an
 [![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aminfaruq/essential-chess-project)
 | Aspect | Details |
 |--------|---------|
-| 🎯 **Challenge** | Build a fully offline chess training app with a strict zero-memory-leak policy and comprehensive test coverage. |
-| 💡 **Solution** | Applied Clean Architecture with MVVM, treating ViewModels as deterministic state machines. Used a hybrid UI approach: UIKit for complex chessboard gestures, SwiftUI for surrounding views—prioritizing performance without framework dogmatism. |
-| 🚀 **Impact** | Fully offline, highly tested, and memory-safe chess trainer. |
+| **Challenge** | Build a fully offline chess training app with a strict zero-memory-leak policy and comprehensive test coverage. |
+| **Solution** | Applied Clean Architecture with MVVM, treating ViewModels as deterministic state machines. Used a hybrid UI approach: UIKit for complex chessboard gestures, SwiftUI for surrounding views—prioritizing performance without framework dogmatism. |
+| **Impact** | Fully offline, highly tested, and memory-safe chess trainer. |
 
 ---
 
