@@ -1,24 +1,39 @@
 # Amin Faruq
-**iOS Engineer** · Scalable Systems · Robust Architecture
+**iOS Engineer**
 
-I design and build resilient iOS applications that scale to millions of users and adapt to changing requirements. My focus: architectural clarity, rigorous testing, and measurable reliability.
+I build iOS apps with a focus on clean architecture, testing, and reliability.
 
 ---
 
-## 🧩 Engineering Case Studies
-
-### Quick Overview
+## Projects
 
 | Project | Domain | Key Technologies | Highlights |
 |---------|--------|------------------|------------|
-| **StreakOS** | Offline-First Habit Tracking | `SwiftUI` `SwiftData` `CloudKit` `watchOS` | Conflict-free sync via counter-based model |
-| **Essential Chess** | Elo-Based Tactics Trainer | `SwiftUI` `UIKit` `Combine` | Zero leaks, 42+ test suites, hybrid UI |
+| **Market App** | Stock market feed, search, live prices | `UIKit` `Texture` `IGListKit` `RxSwift` | Three modules, REST + WebSocket, unit-tested core and view models |
+| **StreakOS** | Offline-first habit tracking | `SwiftUI` `SwiftData` `CloudKit` `watchOS` | Counter-based model for conflict-free sync |
+| **Essential Chess** | Elo-based tactics trainer | `SwiftUI` `UIKit` `Combine` | Zero leaks, 42+ test suites, hybrid UI |
 
 ---
 
-### 🟢 StreakOS — *Offline-First Habit Tracking*
+### Market App: Stock Market Client
 
-**Tech Stack**  
+![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
+![Texture](https://img.shields.io/badge/Texture-000000?style=flat-square&logo=apple&logoColor=white)
+![IGListKit](https://img.shields.io/badge/IGListKit-0A66C2?style=flat-square&logo=meta&logoColor=white)
+![RxSwift](https://img.shields.io/badge/RxSwift-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+
+[![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aminfaruq/MarketApp)
+
+| Aspect | Details |
+|--------|---------|
+| **What it does** | Shows a market feed (quotes and news), stock search, and a detail screen with a price chart and live trades. Data comes from the Finnhub REST and WebSocket APIs. |
+| **Architecture** | Three modules: `MarketCore` (domain, services, HTTP/WebSocket clients, Foundation only), `MarketPresentation` (RxSwift view models, no UIKit), and `MarketApp` (Texture nodes, IGListKit lists). A composition layer wires them together. |
+| **Testing** | Unit tests for the core services and clients, and for every view model. Network clients are injected, so tests run without network access. |
+
+---
+
+### StreakOS: Offline-First Habit Tracking
+
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white)
 ![SwiftData](https://img.shields.io/badge/SwiftData-007AFF?style=flat-square&logo=swift&logoColor=white)
 ![CloudKit](https://img.shields.io/badge/CloudKit-2D7CBF?style=flat-square&logo=icloud&logoColor=white)
@@ -28,48 +43,49 @@ I design and build resilient iOS applications that scale to millions of users an
 
 | Aspect | Details |
 |--------|---------|
-| **Challenge** | A minimalist habit tracker supporting macOS, iOS, and watchOS with seamless offline-first synchronization. Three independent device surfaces mutate the same data model, requiring conflict-free state reconciliation. |
-| **Solution** | Adopted a **counter-based domain model** (instead of binary checkboxes) to shift persistence from simple toggles to cumulative state reconciliation—ensuring data integrity without constant network connectivity. |
-| **Impact** | Reliable offline-first sync across all Apple platforms without data conflicts. |
+| **Challenge** | A habit tracker for macOS, iOS, and watchOS with offline-first sync. Three device surfaces change the same data, so conflicts have to be resolved without a constant connection. |
+| **Solution** | A counter-based domain model instead of binary checkboxes. Persistence becomes cumulative state that can be merged, not toggles that can conflict. |
+| **Result** | Offline-first sync across Apple platforms without data conflicts. |
 
 ---
 
-### ♟️ Essential Chess — *Structured Elo-Based Tactics Trainer*
+### Essential Chess: Elo-Based Tactics Trainer
 
-**Tech Stack**  
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=flat-square&logo=swift&logoColor=white)
 ![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
 ![Combine](https://img.shields.io/badge/Combine-FFB800?style=flat-square&logo=apple&logoColor=black)
 
 [![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aminfaruq/essential-chess-project)
+
 | Aspect | Details |
 |--------|---------|
-| **Challenge** | Build a fully offline chess training app with a strict zero-memory-leak policy and comprehensive test coverage. |
-| **Solution** | Applied Clean Architecture with MVVM, treating ViewModels as deterministic state machines. Used a hybrid UI approach: UIKit for complex chessboard gestures, SwiftUI for surrounding views—prioritizing performance without framework dogmatism. |
-| **Impact** | Fully offline, highly tested, and memory-safe chess trainer. |
+| **Challenge** | An offline chess training app with no memory leaks and good test coverage. |
+| **Solution** | Clean Architecture with MVVM, where view models act as deterministic state machines. UIKit handles the chessboard gestures and SwiftUI handles the other views. |
+| **Result** | A fully offline trainer with 42+ test suites and no leaks. |
 
 ---
 
-## Professional Impact
+## Experience
 
-### PT Phincon — iOS Engineer
-- Contributed to **MyTelkomsel**, serving over **100 million active users**.
-- Reduced production crash rate by **40%** (1.5% → 0.9%) through proactive instrumentation, targeted refactoring, and disciplined code reviews.
-- Delivered **30+ features** within a 50-person engineering cohort under agile delivery cycles.
+### PT Phincon: iOS Engineer
+- Worked on **MyTelkomsel**, which has over **100 million active users**.
+- Reduced the production crash rate by **40%** (1.5% to 0.9%) through instrumentation, targeted refactoring, and code reviews.
+- Delivered **30+ features** in a 50-person engineering team.
 
-### PT Gits Indonesia — iOS Engineer
-- Spearheaded end-to-end development of **three major iOS applications**, maintaining an average App Store rating of **4.7 stars**.
-- Led technical discovery for **five large-scale feature epics**, translating ambiguous business requirements into actionable, well-scoped technical roadmaps.
+### PT Gits Indonesia: iOS Engineer
+- Led development of **three iOS apps**, with an average App Store rating of **4.7**.
+- Led technical discovery for **five large feature epics** and turned business requirements into scoped technical plans.
 
 ---
 
-## 🛠️ Core Competencies
+## Skills
 
 ### Languages & Frameworks
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white)
 ![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=for-the-badge&logo=apple&logoColor=white)
 ![Combine](https://img.shields.io/badge/Combine-FFB800?style=for-the-badge&logo=apple&logoColor=black)
+![RxSwift](https://img.shields.io/badge/RxSwift-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
 ### Data & Persistence
@@ -94,15 +110,15 @@ I design and build resilient iOS applications that scale to millions of users an
 
 ---
 
-## Advanced Training & Education
+## Education & Training
 
-- **iOS Lead Essentials Program** — Intensive curriculum covering advanced software architecture, modular design, TDD/BDD/DDD methodologies, and technical leadership for senior iOS roles.
-- **Bangkit Academy 2022** — Selected as one of 4,636 participants from 45,000+ applicants; graduated in the top 10% of the Mobile Development path.
-- **B.S. Information Systems** — Mulia University (GPA: 3.69/4.00)
+- **iOS Lead Essentials Program**: software architecture, modular design, TDD/BDD/DDD, and technical leadership.
+- **Bangkit Academy 2022**: one of 4,636 participants selected from 45,000+ applicants; top 10% of the Mobile Development path.
+- **B.S. Information Systems**, Mulia University (GPA 3.69/4.00)
 
 ---
 
-## 📬 Connect
+## Contact
 
 <div align="center">
 
@@ -111,8 +127,4 @@ I design and build resilient iOS applications that scale to millions of users an
 
 </div>
 
-*Open to iOS engineering opportunities, architecture discussions, and collaborations.*
-
----
-
-*Currently exploring: robust offline-first synchronization patterns, state management across heterogeneous Apple devices, and architectural strategies for long-term codebase maintainability.*
+Open to iOS engineering roles and collaborations.
