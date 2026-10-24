@@ -10,6 +10,7 @@ I build iOS apps with a focus on clean architecture, testing, and reliability.
 | Project | Domain | Key Technologies | Highlights |
 |---------|--------|------------------|------------|
 | **Market App** | Stock market feed, search, live prices | `UIKit` `Texture` `IGListKit` `RxSwift` | Three modules, REST + WebSocket, unit-tested core and view models |
+| **Restaurant App** | Restaurant list and detail browsing | `UIKit` `RxSwift` `Kingfisher` `VIPER` | VIPER modules, protocol-based networking, test spies |
 | **StreakOS** | Offline-first habit tracking | `SwiftUI` `SwiftData` `CloudKit` `watchOS` | Counter-based model for conflict-free sync |
 | **Essential Chess** | Elo-based tactics trainer | `SwiftUI` `UIKit` `Combine` | Zero leaks, 42+ test suites, hybrid UI |
 
@@ -29,6 +30,23 @@ I build iOS apps with a focus on clean architecture, testing, and reliability.
 | **What it does** | Shows a market feed (quotes and news), stock search, and a detail screen with a price chart and live trades. Data comes from the Finnhub REST and WebSocket APIs. |
 | **Architecture** | Three modules: `MarketCore` (domain, services, HTTP/WebSocket clients, Foundation only), `MarketPresentation` (RxSwift view models, no UIKit), and `MarketApp` (Texture nodes, IGListKit lists). A composition layer wires them together. |
 | **Testing** | Unit tests for the core services and clients, and for every view model. Network clients are injected, so tests run without network access. |
+
+---
+
+### Restaurant App: VIPER Restaurant Browser
+
+![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
+![RxSwift](https://img.shields.io/badge/RxSwift-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+![Kingfisher](https://img.shields.io/badge/Kingfisher-FF6B35?style=flat-square&logo=swift&logoColor=white)
+![XCTest](https://img.shields.io/badge/XCTest-147EFB?style=flat-square&logo=apple&logoColor=white)
+
+[![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aminfaruq/RestaurantApp)
+
+| Aspect | Details |
+|--------|---------|
+| **What it does** | Lists restaurants with images and an empty state, and shows a detail screen for each one. Data comes from the Dicoding Restaurant API. |
+| **Architecture** | VIPER modules (View, Interactor, Presenter, Router) for the list and detail features. A `Core` layer holds the `HTTPClient` protocol, the `URLSession` client, and the remote loaders. |
+| **Testing** | Unit tests for the interactors, presenters, loaders, and HTTP client. Hand-written test spies (`HTTPClientSpy`, loader spies, `ViewSpy`) replace real dependencies, so tests run fast without network access. |
 
 ---
 
@@ -96,6 +114,7 @@ I build iOS apps with a focus on clean architecture, testing, and reliability.
 ### Architecture & Practices
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-1A1A1A?style=for-the-badge&logo=archlinux&logoColor=white)
 ![MVVM](https://img.shields.io/badge/MVVM-4B8BBE?style=for-the-badge&logo=apple&logoColor=white)
+![VIPER](https://img.shields.io/badge/VIPER-6C3FC5?style=for-the-badge&logo=apple&logoColor=white)
 ![TDD](https://img.shields.io/badge/TDD-8A2BE2?style=for-the-badge&logo=testing-library&logoColor=white)
 
 ### Testing & Performance
