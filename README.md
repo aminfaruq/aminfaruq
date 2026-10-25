@@ -38,6 +38,7 @@ I build iOS apps with a focus on clean architecture, testing, and reliability.
 ![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
 ![RxSwift](https://img.shields.io/badge/RxSwift-B7178C?style=flat-square&logo=reactivex&logoColor=white)
 ![Kingfisher](https://img.shields.io/badge/Kingfisher-FF6B35?style=flat-square&logo=swift&logoColor=white)
+![RealmSwift](https://img.shields.io/badge/RealmSwift-39477F?style=flat-square&logo=realm&logoColor=white)
 ![XCTest](https://img.shields.io/badge/XCTest-147EFB?style=flat-square&logo=apple&logoColor=white)
 
 [![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aminfaruq/RestaurantApp)
@@ -110,6 +111,7 @@ I build iOS apps with a focus on clean architecture, testing, and reliability.
 ![Core Data](https://img.shields.io/badge/CoreData-3E4C59?style=for-the-badge&logo=apple&logoColor=white)
 ![CloudKit](https://img.shields.io/badge/CloudKit-2D7CBF?style=for-the-badge&logo=icloud&logoColor=white)
 ![SwiftData](https://img.shields.io/badge/SwiftData-007AFF?style=for-the-badge&logo=swift&logoColor=white)
+![RealmSwift](https://img.shields.io/badge/RealmSwift-39477F?style=for-the-badge&logo=realm&logoColor=white)
 
 ### Architecture & Practices
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-1A1A1A?style=for-the-badge&logo=archlinux&logoColor=white)
